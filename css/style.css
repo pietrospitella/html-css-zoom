@@ -4,3 +4,43 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: #000000;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    height: 85%;
+    border: 1px solid white;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    width: calc((100% / 5) - 4px);
+    height: calc((100% / 5) - 4px);
+
+}
+
+.box-img {
+    width: 100%;
+    background-image: url("../img/boo.png");
+    background-size: cover;
+}
+
+.box-name {
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.5)
+}
