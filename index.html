@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Zoom</title>
 </head>
 <body>
     <!-- main  -->
     <main>
-        <div class="container">
+        <div class="main-container">
             <div class="buttons">
                 <div class="top-right">
-                    <div id="choose-view" class="button">
+                    <div id="choose-view" class="black-gradient button">
                         <i class="fas fa-th"></i> Speaker View
                     </div>
-                    <div id="full-size" class="button">
+                    <div id="full-size" class="black-gradient button">
                         <i class="fas fa-expand-arrows-alt"></i>
                     </div>
                 </div>
@@ -188,8 +188,56 @@
     </main>
     <!-- / main  -->
     <!-- footer  -->
-    <footer>
-
+    <footer class="black-gradient">
+       <div class="footer-container">
+        <div class="switchers">
+            <div class="mic">
+                <i class="fas fa-microphone"></i>
+                <p>Mic</p>
+            </div>
+            <div class="cam">
+                <i class="fas fa-video"></i>
+                <p>Stop Video</p>
+            </div>
+        </div>
+        <div class="meeting-options">
+            <div class="invite">
+                <i class="fas fa-user-plus"></i>
+                <p>Invite</p>
+            </div>
+            <div class="manage-participants">
+                <i class="fas fa-user-friends"></i>
+                <p>Manage Participants</p>
+            </div>
+            <div class="polling">
+                <i class="fas fa-poll"></i>
+                <p>Polling</p>
+            </div>
+            <div class="share-screen">
+                <i class="fas fa-share-square"></i>
+                <p>Share Screen</p>
+            </div>
+            <div class="chat">
+                <i class="fas fa-comment-dots"></i>
+                <p>Chat</p>
+            </div>
+            <div class="record">
+                <i class="fas fa-record-vinyl"></i>
+                <p>Record</p>
+            </div>
+            <div class="breakout-rooms">
+                <i class="fas fa-th-large"></i>
+                <p>Breakout Rooms</p>
+            </div>
+            <div class="more">
+                <i class="fas fa-ellipsis-h"></i>
+                <p>More</p>
+            </div>
+        </div>
+        <div class="end-call">
+            End meeting
+        </div>
+       </div> 
     </footer>
     <!-- / footer  -->
 </body>
