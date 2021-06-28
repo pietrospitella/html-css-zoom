@@ -12,6 +12,26 @@
     <!-- main  -->
     <main>
         <div class="container">
+            <div class="buttons">
+                <div class="top-right">
+                    <div id="choose-view" class="button">
+                        <i class="fas fa-th"></i> Speaker View
+                    </div>
+                    <div id="full-size" class="button">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="lateral-arrows">
+                <div id="left" class="arrow">
+                    <i class="fas fa-caret-left"></i>
+                    <p>1/2</p>
+                </div>
+                <div id="right" class="arrow">
+                    <i id="active-arrow" class="fas fa-caret-right"></i>
+                    <p>1/2</p>
+                </div>
+            </div>
             <div class="gallery">
                 <div class="box">
                     <div class="box-img"></div>
@@ -157,7 +177,7 @@
                         <i class="fas fa-microphone-alt-slash"></i> Student
                     </div>
                 </div>
-                <div class="box">
+                <div id="active-box" class="box">
                     <div class="box-img"></div>
                     <div class="box-name">
                         <i class="fas fa-microphone-alt-slash"></i> Student
