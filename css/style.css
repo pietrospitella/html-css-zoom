@@ -64,7 +64,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
     background: #000000;
 }
 
@@ -107,13 +107,11 @@ body {
 
 /* footer  */
 
-* footer i {
-    font-size: 40px;
-}
+
 
 footer {
     width: 100%;
-    height: 70px;
+    height: 80px;
     margin: 0;
 }
 
@@ -121,7 +119,6 @@ footer {
     width: 100%;
     height: 100%;
     display: flex;
-    border: 1px solid blue;
     justify-content: space-between;
 }
 
@@ -129,8 +126,36 @@ footer {
     display: inline-block;
 }
 
-.switchers,.meeting-options,.end-call {
-    justify-content: ;
+.square {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    /* text-align: center; */
+    
+}
+
+.square i {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.square p {
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+    
+
 }
 .switchers {
     /* float: left; */
@@ -147,6 +172,11 @@ footer {
 
 .end-call {
     /* float: right; */
+    display: flex;
+    
+    justify-content: center;
+    background: grey;
+    color: red;
 }
 
 /* / footer  */
